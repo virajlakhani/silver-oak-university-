@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	width: 100%;
+	float: left;
+	height: 100px;
+	background: red;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.menu {
+	width: 80%;
+	float: left;
+}
+.menu ul {
+	list-style: none;
+	text-align: right;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 20px;
+	background: white;
+	position: relative;
+}
+.menu ul li:hover {
+	background: yellow;
+}
+.menu ul li ul{
+	display: none;
+}
+.menu ul li:hover ul{
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+}
+.menu ul li ul li ul{
+	display: none !important;
+}
+.menu ul li ul li:hover ul{
+	display: block !important;
+	left: 100%;
+	top: 0px;
+}
+.bg{
+	width: 100%;
+	float: left;
+	background-image: url('shiva\'.JPG') ;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.text{
+	text-align: center;
+	margin-top: 250px;
+}
+.btn { 
+    background: red;
+    color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+}
+.btn:hover {
+	background: yellow;
+	color: red;
+	border: 1px solid blue;
+	transition: 2s;
+}
+.part_sec{
+	width: 100%;
+	float: left;
+}
+
+.part1{
+	width: 50%;
+	float: left;
+}
+.part2{
+	width: 50%;
+	float: left;
+}
+.part1 img{
+	width: 100%;
+}
+.space{
+	padding: 40px;
+}
+.icon{
+	color: red;
+}
+.part2 img{
+	width: 100%;
+	
